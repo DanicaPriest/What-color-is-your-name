@@ -1,0 +1,35 @@
+body{
+  margin:20px;
+}
+button{
+  border: 10px solid transparent;
+    padding: 10px;
+  font-weight:bold;
+    -webkit-border-image: url(https://media.giphy.com/media/URZcG7uLd9h4s/giphy.gif) 30 round; /* Safari 3.1-5 */
+    -o-border-image: url(https://media.giphy.com/media/URZcG7uLd9h4s/giphy.gif) 30 round; /* Opera 11-12.1 */
+    border-image: url(https://media.giphy.com/media/URZcG7uLd9h4s/giphy.gif) 30 round;
+}
+button:hover{
+  background:url(https://media.giphy.com/media/URZcG7uLd9h4s/giphy.gif);
+  
+}
+#demo{
+  font-size:60px;
+  -webkit-text-stroke: 1px black;
+   color: white;
+   text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+}
+#howTo p {
+  display:none;
+  background: white;
+  padding:20px;
+  border: 10px solid transparent;
+    -webkit-border-image: url(https://media.giphy.com/media/URZcG7uLd9h4s/giphy.gif) 30 round; /* Safari 3.1-5 */
+    -o-border-image: url(https://media.giphy.com/media/URZcG7uLd9h4s/giphy.gif) 30 round; /* Opera 11-12.1 */
+    border-image: url(https://media.giphy.com/media/URZcG7uLd9h4s/giphy.gif) 30 round;
+}
