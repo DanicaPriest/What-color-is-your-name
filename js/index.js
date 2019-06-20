@@ -1,5 +1,5 @@
 function find_player_color() {
-  var colorname = prompt("What is your name? first last or both, spaces are ok");
+  var colorname = prompt("What is your name? first, last, or both, spaces are ok");
   if (colorname != null) {
         document.getElementById("demo").innerHTML = "This is your color "+ colorname;
   document.bgColor=colorname;
